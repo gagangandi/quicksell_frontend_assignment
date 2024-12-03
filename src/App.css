@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.filter {
+  display: block;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.filter label {
+  font-weight: bold;
+}
+
+.filter select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h2 {
+  text-align: left;
+  margin-bottom: 15px;
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.ticket-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ticket-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.ticket-card p {
+  margin: 0;
+  color: #555;
+}
+
+.ticket-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkgray;
+}
+
+.ticket-card-footer p span{
+  border: 1px solid #ccc;
+  color: darkgray;
+  border-radius: 3px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.make-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.margin-x{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.title-card-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.card-tag {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.grey-dot {
+  height: 12px;
+  width: 12px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.icon-border {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+.margin-r{
+  margin-right: 10px;
+}
+
+.margin-r1{
+  margin-right: 15px;
+}
+
+
+.dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.make-bold {
+  font-weight: bold;
+}
+
+.group-by{
+  margin : 2px;
+}
+
+
